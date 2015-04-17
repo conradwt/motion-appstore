@@ -25,7 +25,7 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 module Utils
-  ALTOOL = "/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Support/altool"
+  ALTOOL = "/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Support/altool"
 
   def altool(arg)
     message = `\"#{ALTOOL}\" #{arg} 2>&1`
